@@ -49,6 +49,6 @@ class Cliente:
 
     def __str__(self):
         return \
-            "cedula: " + str(self.cedula) + \
-            "nombre: " + self.nombre + \
+            "cedula: " + str(self.cedula) + ", " + \
+            "nombre: " + self.nombre + ", " + \
             "estado: " + self.estado
